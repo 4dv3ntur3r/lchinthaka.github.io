@@ -1,0 +1,542 @@
+body {
+  overflow: hidden;
+}
+
+/*  Common Class*/
+.planet1, .planet2, .planet3, .planet4, .planet5 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/*Planet One craters and moon Start*/
+.planet1{
+  background-color: #f46e6e;
+  box-shadow: inset 10px -15px 6px #d66161;
+}
+
+.planet1-detail {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #d66161;
+  border-radius: 50%;
+  box-shadow: inset -2px 1px 0 #884949;
+  z-index: 999;
+}
+
+.planet1-detail:nth-child(1) {
+  top: 50px;
+  left: 50px;
+}
+
+.planet1-detail:nth-child(2) {
+  top: 30px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+  box-shadow: inset -1px 1px 0 #884949;
+}
+
+.planet1-detail:nth-child(3) {
+  top: 100px;
+  left: 40px;
+  width: 15px;
+  height: 15px;
+  box-shadow: inset -1.5px 0.8px 0 #884949;
+}
+
+.planet1-detail:nth-child(4) {
+  top: 30px;
+  left: 95px;
+  width: 5px;
+  height: 5px;
+  box-shadow: inset -1px 0.8px 0 #884949;
+}
+
+.planet1-detail:nth-child(5) {
+  top: 90px;
+  left: 95px;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset -2px 1px 0 #884949;
+}
+
+.planet1-detail:nth-child(6) {
+  top: 50px;
+    left: 105px;
+  width: 10px;
+  height: 10px;
+  box-shadow: inset -2px 1px 0 #884949;
+}
+
+.aura1-detail {
+  top: 40%;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background: #a4b2a8 ;
+  border-radius: 50%;
+  margin-top: 10px;
+  left: 30px;
+  box-shadow: -4px 6px 0 #da6262;
+}
+
+/*Planet Two Start*/
+.planet2{
+  background-color: #00BFFF;
+  box-shadow: inset 25px -25px 8px #1E90FF;
+}
+
+.planet2-detail {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  background: #87CEEB;
+  border-radius: 50%;
+  box-shadow: inset -2px 1px 0 #6495ED;
+  z-index: 999;
+}
+
+.planet2-detail:nth-child(1) {
+  top: 50px;
+  left: 50px;
+}
+
+.planet2-detail:nth-child(2) {
+  top: 100px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset -1.5px 0.8px 0 #6495ED;
+}
+
+.planet2-detail:nth-child(3) {
+  top: 30px;
+  left: 95px;
+  width: 5px;
+  height: 5px;
+  box-shadow: inset -1px 0.8px 0 #6495ED;
+}
+
+.planet2-detail:nth-child(4) {
+  top: 59px;
+  left: 103px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #6495ED;
+}
+
+/*  Planet Three Start*/
+.planet3 {
+  background-color: #00FF00;
+  box-shadow: inset 35px -10px 8px #32CD32;
+}
+
+.planet3-detail {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  background: #228B22;
+  border-radius: 50%;
+  box-shadow: inset -2px 1px 0 #008000;
+  z-index: 999;
+}
+
+.planet3-detail:nth-child(1) {
+  top: 60px;
+  left: 60px;
+}
+
+.planet3-detail:nth-child(2) {
+  top: 100px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset -1.5px 0.8px 0 #008000;
+}
+
+.planet3-detail:nth-child(3) {
+  top: 30px;
+  left: 95px;
+  width: 5px;
+  height: 5px;
+  box-shadow: inset -1px 0.8px 0 #008000;
+}
+
+.planet3-detail:nth-child(4) {
+  top: 59px;
+  left: 103px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #008000;
+}
+
+.planet3-detail:nth-child(5) {
+  top: 59px;
+  left: 103px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #008000;
+}
+
+.aura3-detail {
+  top: 40%;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  background: #a4b2a8 ;
+  border-radius: 50%;
+  margin-top: 10px;
+  left: 30px;
+  box-shadow: -4px 6px 0 #008000;
+}
+
+/*  Planet Four Start*/
+.planet4 {
+  width: 250px;
+  height: 250px;
+  background-color: #9400D3;
+  box-shadow: inset 5px -20px 8px #4B0082;
+}
+
+.planet4-detail {
+  position: absolute;
+  background: #EE82EE;
+  border-radius: 50%;
+  box-shadow: inset -2px 1px 0 #9370DB;
+  z-index: 999;
+}
+
+.planet4-detail:nth-child(1) {
+  top: 60px;
+  left: 60px;
+}
+
+.planet4-detail:nth-child(2) {
+  top: 100px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset -1.5px 0.8px 0 #9370DB;
+}
+
+.planet4-detail:nth-child(3) {
+  top: 30px;
+  left: 95px;
+  width: 5px;
+  height: 5px;
+  box-shadow: inset -1px 0.8px 0 #9370DB;
+}
+
+.planet4-detail:nth-child(4) {
+  top: 59px;
+  left: 103px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #9370DB;
+}
+
+.planet4-detail:nth-child(5) {
+  top: 5px;
+  left: -5px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #9370DB;
+}
+
+/*  Planet Five Start*/
+.planet5 {
+  width: 100px;
+  height: 100px;
+  background-color: #FFFF00;
+  box-shadow: inset 5px -20px 8px #999900;
+}
+
+.planet5-detail {
+  position: absolute;
+  background: #666600;
+  border-radius: 50%;
+  box-shadow: inset -2px 1px 0 #CCCC00;
+  z-index: 999;
+}
+
+.planet5-detail:nth-child(1) {
+  top: 60px;
+  left: 60px;
+}
+
+.planet5-detail:nth-child(2) {
+  top: 50px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset -1.5px 0.8px 0 #CCCC00;
+}
+
+.planet5-detail:nth-child(3) {
+  top: 20px;
+  left: 90px;
+  width: 5px;
+  height: 5px;
+  box-shadow: inset -1px 0.8px 0 #CCCC00;
+}
+
+.planet5-detail:nth-child(4) {
+  top: 100px;
+  left: 80px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #CCCC00;
+}
+
+.planet5-detail:nth-child(5) {
+  top: 30px;
+  left: -5px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset -2px 1px 0 #CCCC00;
+}
+/*Animation Start*/
+
+/*@-webkit-keyframes travel {
+from { left: 0;     }
+to   { left: 100%; }
+}
+
+@-webkit-keyframes bounce {
+  from, to  {
+    bottom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 100%;
+    -webkit-animation-timing-function: ease-in;
+  }
+}*/
+
+@-webkit-keyframes spin {
+  from {                                     }
+  to   { -webkit-transform: rotateZ(360deg); }
+}
+
+@keyframes travelOne {
+  from {  left: 0; }
+  to   { left: 100%; }
+}
+
+@keyframes bounceOne {
+  from, to  {
+    bottom: 0;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    bottom: 100%;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes travelTwo {
+  from {  left: 10%; }
+  to   { left: 100%; }
+}
+
+@keyframes bounceTwo {
+  from, to  {
+    bottom: 0;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    bottom: 100%;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes travelThree {
+  from {  right: -40%; }
+  to   { right: 100%; }
+}
+
+@keyframes bounceThree {
+  from, to  {
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 100%;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes travelFour {
+  from {  left: 100%; }
+  to   { left: 0; }
+}
+
+@keyframes bounceFour {
+  from, to  {
+    bottom: 100%;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    bottom: 0;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes travelFive {
+  from {  right: 100%; }
+  to   { right: 0; }
+}
+
+@keyframes bounceFive {
+  from, to  {
+    top: 100%;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.traveler {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bouncer {
+  position: absolute;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+#traveler1 {
+  -webkit-animation-name: travelOne;
+  -webkit-animation-duration: 25s;
+
+  animation-name: travelOne;
+  animation-duration: 25s;
+}
+
+#bouncer1 {
+  -webkit-animation-name: bounceOne, spin;
+  -webkit-animation-duration: 30s;
+
+  animation-name: bounceOne, spin;
+  animation-duration: 30s;
+}
+
+#traveler2 {
+  -webkit-animation-name: travelTwo;
+  -webkit-animation-duration: 15s;
+
+  animation-name: travelTwo;
+  animation-duration: 15s;
+}
+
+#bouncer2 {
+  -webkit-animation-name: bounceTwo, spin;
+  -webkit-animation-duration: 15s;
+
+  animation-name: bounceTwo, spin;
+  animation-duration: 15s;
+}
+
+#traveler3 {
+  -webkit-animation-name: travelThree;
+  -webkit-animation-duration: 25s;
+
+  animation-name: travelThree;
+  animation-duration: 25s;
+}
+
+#bouncer3 {
+  -webkit-animation-name: bounceThree, spin;
+  -webkit-animation-duration: 20s;
+
+  animation-name: bounceThree, spin;
+  animation-duration: 20s;
+}
+
+#traveler4 {
+  -webkit-animation-name: travelFour;
+  -webkit-animation-duration: 40s;
+
+  animation-name: travelFour;
+  animation-duration: 40s;
+}
+
+#bouncer4 {
+  -webkit-animation-name: bounceFour, spin;
+  -webkit-animation-duration: 40s;
+
+  animation-name: bounceFour, spin;
+  animation-duration: 40s;
+}
+
+#traveler5 {
+  -webkit-animation-name: travelFive;
+  -webkit-animation-duration: 15s;
+
+  animation-name: travelFive;
+  animation-duration: 15s;
+}
+
+#bouncer5 {
+  -webkit-animation-name: bounceFive, spin;
+  -webkit-animation-duration: 35s;
+
+  animation-name: bounceFive, spin;
+  animation-duration: 35s;
+}
+
+@keyframes spinAura {
+  0% {
+    top: 30%;
+    left: -30%;
+  }
+  100% {
+    top: 30%;
+    left: 100%;
+  }
+}
+
+#auraspin {
+  z-index: 9999;
+  position: absolute;
+  -webkit-animation-name: spinAura;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -webkit-animation-duration: 4.2s;
+
+  animation-name: spinAura;
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+}

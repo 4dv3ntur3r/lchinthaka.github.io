@@ -1,0 +1,117 @@
+@media (max-width: 767px) and (min-width: 481px) {
+  .alert-area {
+    left: 100px;
+    right: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert-area {
+    width: 350px;
+    left: auto;
+    right: 0;
+  }
+}
+@media (max-width: 767px) and (min-width: 601px) and (max-height: 680px){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+@media (max-width: 600px) and (min-width: 480px) and (max-height: 580px){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+@media (max-width: 800px) and (min-width: 360px) and (orientation: landscape){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+
+@media (max-width: 375px) and (max-height: 667px){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+
+@media (max-width: 414px) and (max-height: 736px){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+
+@media(max-width: 359px){
+	.device-notification{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+	}
+}
+
+@media (max-width: 1180px) {
+	.side-nav{display: none;}
+	.wrapper { max-width: 100%; }
+	.main-logo { margin-left: 5%; }
+	#home, #about, #work, #contact, #hire { width: 80%; max-width: 80%; }
+	.home-options { margin-top: 5%; }
+	#work { margin: 15% auto;}
+	.home-image { margin-bottom: -5px; }
+	hr { margin-top: -4%; }
+
+}
+
+@media (max-width: 900px) {
+	#home, #about, #work, #contact, #hire { width: 90%; max-width: 90%; margin-top: 17%;}
+	.home-image { margin-bottom: -3px; margin-top: -7%; margin-left: 9%;}
+	hr { margin-top: -5%; }
+	.home-hire-btn { width: 12%;}
+	#work { margin: 25% auto; }
+	.hireme-checkbox { margin-left: -5%; }
+	.hireme-checkbox div li label { width: 200px; padding: 15px; }
+	.alert { right: -4%;}
+}
+
+@media (max-width: 360px) {
+	#home, #about, #work, #contact, #hire { width: 90%; max-width: 90%; margin-top: 20%;}
+	.home-banner h1 { font-size: 3em; }
+	.home-options { display: block; }
+	.home-image { display: none;}
+	hr { margin-top: 30%;}
+	.hire-btn-div{ margin-top: -25%; margin-bottom: 15%;}
+	.home-hire-btn { width: 28%; }
+	#about { display: block; margin-top: 30%; }
+	.about-intro { width: 100%; }
+	.about-sphere { display: none; }
+	#work { margin-top: 35%; }
+	.work-showcase.convert-slide { display: block; }
+	.work-showcase li{ display: block; width: 90%; margin: 20px 0;}
+	.next { right: -8%; }
+	.prev, .next { top: 37%; }
+	.contact-social-media ul{ justify-content: space-between; flex-wrap: wrap; padding: 0;}
+	.contact-social-media ul > a li{ margin-bottom: 10px; margin-left: 10px }
+	.hireme-checkbox div li label{ width: 150px; margin-bottom: 20px; margin-left: 5px; font-size: 1em;}
+	.hire-div-one, .hire-div-two, .hire-div-three { flex-wrap: wrap; justify-content: center; margin: 0; }
+	.hireme-checkbox .hire-div-three li label { display: none; }
+	#hire-div-five { flex-wrap: wrap; }
+	#hire-div-five input[type="text"], #hire-div-five input[type="email"] { width: 90%; margin-bottom: 20px; font-size: 1.3em; }
+	#other-comp { font-size: 0.7em; }
+	.main-nav.toggle { font-size: 12px; }
+}
+
+@media (max-width: 767px) {.header-btn { display: none; }}
